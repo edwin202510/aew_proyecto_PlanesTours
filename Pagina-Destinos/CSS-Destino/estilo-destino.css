@@ -1,1 +1,49 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: #232323;
+   
+}
+
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:150px;    
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    height: 100%;
+}
+
+ul {  
+    padding: 0;
+    margin: 0;
+    list-style: none; /*elimina los puntos de la lista*/
+    text-align: center;/*centrar el contenido del <ul>*/
+   
+}
+
+li{
+    display:inline-block;
+     margin: 0 10px; /* Espaciado entre los elementos */
+}
+
+img{
+width: 150px;
+}
+
+
+
 
