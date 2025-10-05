@@ -1,13 +1,10 @@
 * {
-    padding: 0;
-    border: 0;
-    margin: 0;
+    box-sizing: border-box;
 }
 
 
 body{
-    background-color: #232323;
-   
+    background-color: #232323;   
 }
 
 
@@ -37,7 +34,7 @@ ul {
 
 li{
     display:inline-block;
-     margin: 0 10px; /* Espaciado entre los elementos */
+     margin: 0 20px; /* Espaciado entre los elementos */
 }
 
 img{
