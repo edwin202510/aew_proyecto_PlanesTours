@@ -7,14 +7,9 @@ html, body{
     padding: 0;
 }
 
-
-body{
-    background-color:blue;
-}
-
-
+/*Encabezado*/
 header{
-    background-color: white;
+    background-color:white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +60,20 @@ img{
 
 
 
-/*footer{
-    background-color: ;
-}*/
+
+/*Pie de pagina*/
+footer{
+    background-color: #212429;
+    color: white;
+    margin-top: auto;
+}
+
+hr{
+    border-color: #AAADB2;
+}
+
+.cont-small{
+    text-align: center;
+}
+
+
