@@ -58,22 +58,86 @@ img{
     margin: 0 20px;   
 }
 
+/*Main-Contenido*/
+
+.caja5{
+    background-color: #212429;
+    color: white;
+    width: 100%;
+    display: flex;
+}
+
+figure{
+    margin: 0;
+}
+
+.caja{
+  display: block;
+  height: 250px;
+ 
+}
+
+.lista-pie-pagina{
+    padding: 0;
+    margin: 0;
+}
+
+.lista-pie-pagina li{
+    display: block;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+    
+}
+
+#caja1{
+    background-color: #0E6DFD;
+
+}
+
+#caja2{
+    background-color: chocolate;
+    width: 100px;
+}
+
+#caja3{
+    background-color: brown;
+     width: 100px;
+}
+
+h5{
+    margin: 0;
+}
+
+
 
 
 
 /*Pie de pagina*/
+
 footer{
     background-color: #212429;
     color: white;
-    margin-top: auto;
+    text-align: center;  
+}
+
+
+figure{
+    height: 200px;
 }
 
 hr{
     border-color: #AAADB2;
+  
 }
 
-.cont-small{
-    text-align: center;
+#caja3{
+    align-self: end;
+   
+   
+   
 }
+
+
 
 
