@@ -35,7 +35,7 @@ ul {
 
 li{
     display:inline-block;
-    margin: 0 20px; /* Espaciado entre los elementos */   
+    margin: 0 10px; /* Espaciado entre los elementos */   
 }
 
 a{
@@ -60,9 +60,30 @@ img{
 
 /*Banner*/
 
+.container-banner{    
+    height: 350px;
+    display: flex;
+    align-items: center;  
+    background-image: url(../Image-Destinos/banner1.jpg);
+    background-size:cover;
+    justify-content:space-around;      
+}
 
+#caja-banner{
+    color: white;
+    display: flex;
+    display: list-item;   
+}
 
+.Imagen2{
+    opacity: 0;
+    width: 600px;
+    height: 350px;         
+}
 
+.container-banner:hover .Imagen2{
+    opacity: 1;
+}
 
 
 /*Main-Contenido*/
