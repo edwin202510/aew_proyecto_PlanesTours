@@ -58,51 +58,59 @@ img{
     margin: 0 20px;   
 }
 
+/*Banner*/
+
+
+
+
+
+
 /*Main-Contenido*/
 
-.caja5{
+.contenedor{
     background-color: #212429;
-    color: white;
-    width: 100%;
-    display: flex;
+    color: white;   
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
 }
 
 figure{
     margin: 0;
 }
 
-.caja{
-  display: block;
-  height: 250px;
- 
+.caja{ 
+  width: auto;
+  height: 270px;  
 }
 
 .lista-pie-pagina{
     padding: 0;
     margin: 0;
+    text-align: left;
+           
 }
 
 .lista-pie-pagina li{
     display: block;
     padding: 0;
-    text-align: left;
-    margin: 0;
-    
+    margin: 0;    
 }
 
 #caja1{
-    background-color: #0E6DFD;
-
+    background-color: #212429;
+    display: flex;
+    align-items: center;
 }
 
 #caja2{
-    background-color: chocolate;
-    width: 100px;
+    background-color: #212429;  
+    padding: 40px 0;       
 }
 
 #caja3{
-    background-color: brown;
-     width: 100px;
+    background-color: #212429;
+    padding: 40px 0;      
 }
 
 h5{
@@ -129,13 +137,6 @@ figure{
 hr{
     border-color: #AAADB2;
   
-}
-
-#caja3{
-    align-self: end;
-   
-   
-   
 }
 
 
