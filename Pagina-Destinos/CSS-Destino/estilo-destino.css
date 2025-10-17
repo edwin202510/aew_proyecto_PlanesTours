@@ -8,6 +8,26 @@ html, body{
 }
 
 /*Encabezado*/
+
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .encabezado {
+        width: 90%; /* Usa un ancho porcentual en pantallas medianas */
+        margin: 10px auto;
+        padding: 15px;
+    }
+}
+
+/* Media query para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .encabezado {
+        width: 95%; /* Aún más ancho para dispositivos móviles */
+        margin: 5px auto;
+        padding: 10px;
+    }
+}
+
 header{
     background-color:white;
     display: flex;
@@ -25,6 +45,7 @@ div{
 }
 
 nav{
+    display: flex;
     display: inline-block;
 }
 
@@ -44,6 +65,7 @@ a{
 }
 
 img{
+    display: flex;
     width: 150px;
 }
 
@@ -100,6 +122,10 @@ figure{
     margin: 0;
 }
 
+figure{
+    height: 200px;
+}
+
 .caja{ 
   width: auto;
   height: 270px;  
@@ -152,9 +178,7 @@ footer{
 }
 
 
-figure{
-    height: 200px;
-}
+
 
 hr{
     border-color: #AAADB2;
