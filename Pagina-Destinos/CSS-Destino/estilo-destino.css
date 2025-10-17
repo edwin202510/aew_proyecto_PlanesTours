@@ -110,6 +110,21 @@ img{
 
 /*Main-Contenido*/
 
+.continentes{
+    display:block;
+}
+
+h1{
+    display: block;
+    text-align: center;
+}
+
+.articulos{
+   display: flex;      
+}
+
+
+
 .contenedor{
     background-color: #212429;
     color: white;   
