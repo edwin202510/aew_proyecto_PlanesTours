@@ -2,160 +2,117 @@
     box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
-/*Encabezado*/
-
-
-header{
-    background-color:white;
-    display: flex;
-         
+body {
+    font-family: system-ui, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
 }
 
+/*encabezado*/
 
-.caja1 img{
-    display: flex;    
-    gap: 100px;
-    height: 100%;
+.caja1 img {
+    width: 150px;
+}
+
+header {
+    display: flex;
     align-self: center;
-    justify-content: space-between;   
+    justify-content: center;
+    /*centrar justificado*/
+
 }
 
-.caja2 nav{
-    display: flex;
-    /*display: inline-block;*/
-    justify-content: space-between;
-    align-items: center;   
-}
-
-.row{
-    display: flex;
-}
-
-ul {    
-    list-style: none; /*elimina los puntos de la lista*/
-    display: flex;
-    /*display: inline-block;*/   
-    text-align: center;/*centrar el contenido del <ul>*/       
-}
-
-nav ul{
-    padding: 0;
-}
-
-li{
-    /*display:inline-block;*/
-    margin: 0 10px; /* Espaciado entre los elementos */     
-}
-
-nav ul li a {
-    text-decoration: none; 
-    color: #8C8D87;    
-}
-
-img{    
-    width: 100px;
-}
-
-.btn-inicia{
-    border: none;
-    border-radius: 5px;/*bordes redondeados*/
-    background: #0E6DFD;
-    color: white;
-          
+.caja3 {
+    align-self: center;
 }
 
 /*Banner*/
 
-.container-banner{    
-    height: 350px;
-    display: flex;
-    align-items: center;  
+.container-banner {
     background-image: url(../Image-Destinos/banner1.jpg);
-    background-size:cover;
-    justify-content:space-around;      
-}
-
-#caja-banner{
-    color: white;
+    width: 100%;
+    height: 300px;
     display: flex;
-    display: list-item;   
+    align-self: center;
+    justify-content: center;
+    /*centrar justificado*/
+    
 }
 
-.Imagen2{
-    opacity: 0;
-    width: 600px;
-    height: 350px;         
-}
+ /* Efecto hover */
+    .container-banner:hover .Imagen2 {
+      opacity: 1;
+    }
 
-.container-banner:hover .Imagen2{
-    opacity: 1;
-}
-
-
-/*Main-Contenido*/
-
-.continentes{
-    display:block;
-}
-
-h1{
-    display: block;
-    text-align: center;
-}
-
-.articulos{
-   display: flex;      
-}
+    .container-banner .Imagen2 {
+      opacity: 0;
+    }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*Pie de pagina*/
-
-footer{    
-    background-color: #212429;
+#caja-banner {
     color: white;
-    text-align: center;
+
+}
+
+.Imagen2 {
+    height: 168px;
+    width: 380px;
 }
 
 
 
-hr{
-    border-color: #AAADB2;  
-}
+/*Contenido*/
 
-h5{
-    margin: 0;
-}
-
-figure{
-    height: 200px;
-    margin: 0;
+.card iframe{
+    width: 255px;
+    height: 120px;
 }
 
 
 
-.caja5 .lista-pie-pagina li{
-    padding: 0;
-    margin: 0;
-    display: block;
-   
+
+
+/*Pie pagina*/
+
+figure img {
+    width: 100px;
 }
 
+figcaption {
+    color: white;
+}
 
+.H5 {
+    color: aliceblue;
+    /* blanco*/
+}
 
+ul {
+    color: white;
+    /* blanco */
+
+    list-style-type: none;
+    /* O simplemente list-style: none;
+    /*padding: 0; /* Opcional: elimina el espacio de relleno predeterminado */
+    /*margin: 0; /* Opcional: elimina el margen predeterminado */
+}
+
+hr {
+    height: 2px;
+    /* Ajusta el grosor */
+    background-color: gray;
+    /* Cambia el color */
+    border: none;
+    /* Elimina el borde predeterminado */
+}
+
+small {
+    color: white;
+    /* Cambia el color al que prefieras */
+}
