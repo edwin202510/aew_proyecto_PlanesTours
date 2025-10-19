@@ -10,74 +10,63 @@ html, body{
 /*Encabezado*/
 
 
-/* Media query para pantallas más pequeñas */
-@media (max-width: 768px) {
-    .encabezado {
-        width: 90%; /* Usa un ancho porcentual en pantallas medianas */
-        margin: 10px auto;
-        padding: 15px;
-    }
-}
-
-/* Media query para pantallas muy pequeñas */
-@media (max-width: 480px) {
-    .encabezado {
-        width: 95%; /* Aún más ancho para dispositivos móviles */
-        margin: 5px auto;
-        padding: 10px;
-    }
-}
-
 header{
     background-color:white;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height:150px;       
+         
 }
 
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.caja1 img{
+    display: flex;    
     gap: 100px;
     height: 100%;
+    align-self: center;
+    justify-content: space-between;   
 }
 
-nav{
+.caja2 nav{
     display: flex;
-    display: inline-block;
+    /*display: inline-block;*/
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.row{
+    display: flex;
 }
 
 ul {    
     list-style: none; /*elimina los puntos de la lista*/
-    text-align: center;/*centrar el contenido del <ul>*/   
+    display: flex;
+    /*display: inline-block;*/   
+    text-align: center;/*centrar el contenido del <ul>*/       
+}
+
+nav ul{
+    padding: 0;
 }
 
 li{
-    display:inline-block;
-    margin: 0 10px; /* Espaciado entre los elementos */   
+    /*display:inline-block;*/
+    margin: 0 10px; /* Espaciado entre los elementos */     
 }
 
-a{
-     text-decoration: none;
-     color: #8C8D87;    
+nav ul li a {
+    text-decoration: none; 
+    color: #8C8D87;    
 }
 
-img{
-    display: flex;
-    width: 150px;
+img{    
+    width: 100px;
 }
 
-.boton-accion{
+.btn-inicia{
     border: none;
     border-radius: 5px;/*bordes redondeados*/
     background: #0E6DFD;
     color: white;
-    padding-inline: 25px;
-    padding-block: 10px;
-    font-weight: bold;
-    margin: 0 20px;   
+          
 }
 
 /*Banner*/
@@ -125,59 +114,12 @@ h1{
 
 
 
-.contenedor{
-    background-color: #212429;
-    color: white;   
-    display: flex;    
-    align-items: center;
-    justify-content: space-around;
-}
 
-figure{
-    margin: 0;
-}
 
-figure{
-    height: 200px;
-}
 
-.caja{ 
-  width: auto;
-  height: 270px;  
-}
 
-.lista-pie-pagina{
-    padding: 0;
-    margin: 0;
-    text-align: left;
-           
-}
 
-.lista-pie-pagina li{
-    display: block;
-    padding: 0;
-    margin: 0;    
-}
 
-#caja1{
-    background-color: #212429;
-    display: flex;
-    align-items: center;
-}
-
-#caja2{
-    background-color: #212429;  
-    padding: 40px 0;       
-}
-
-#caja3{
-    background-color: #212429;
-    padding: 40px 0;      
-}
-
-h5{
-    margin: 0;
-}
 
 
 
@@ -185,21 +127,35 @@ h5{
 
 /*Pie de pagina*/
 
-footer{
-    
+footer{    
     background-color: #212429;
     color: white;
-    text-align: center;  
+    text-align: center;
 }
-
 
 
 
 hr{
-    border-color: #AAADB2;
-  
+    border-color: #AAADB2;  
 }
 
+h5{
+    margin: 0;
+}
+
+figure{
+    height: 200px;
+    margin: 0;
+}
+
+
+
+.caja5 .lista-pie-pagina li{
+    padding: 0;
+    margin: 0;
+    display: block;
+   
+}
 
 
 
