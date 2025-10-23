@@ -83,7 +83,6 @@ img .Imagen2 {
 
 
 
-
 figure img {
     width: 100px;
 }
@@ -92,7 +91,7 @@ figcaption {
     color: white;
 }
 
-.col-4 h5 {
+.col-md-4 h5 {
     color: aliceblue;
     /* h5 blanco*/
 }
