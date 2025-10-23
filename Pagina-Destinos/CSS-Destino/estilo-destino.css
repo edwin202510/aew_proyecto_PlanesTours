@@ -43,7 +43,8 @@ header {
 }
 
 .banner .row .col-5 {
-    padding-left: 50px;
+    padding-top: 10px;
+    padding-left: 20px;
     /*Darle espacio lado izquierdo de texto*/
     background-image: url(../Image-Destinos/carpa.jpg);
     color: white;
@@ -54,8 +55,6 @@ header {
 }
 
 /* Efecto hover */
-
-
 img .Imagen2 {
     height: 168px;
     width: 250px;
@@ -81,6 +80,9 @@ img .Imagen2 {
 
 /*Pie pagina*/
 
+footer .row {
+    padding-left: 10%;
+}
 
 
 figure img {
@@ -94,17 +96,23 @@ figcaption {
 .col-md-4 h5 {
     color: aliceblue;
     /* h5 blanco*/
+    padding-left: 10%;
 }
 
 ul {
     color: white;
     /* blanco */
-
     list-style-type: none;
     /* elimina viñetas*/
     /* O simplemente list-style: none;
     /*padding: 0; /* Opcional: elimina el espacio de relleno predeterminado */
     /*margin: 0; /* Opcional: elimina el margen predeterminado */
+}
+
+.col-md-4 a {
+    color: white;
+    text-decoration: none;
+    /*sin subrayado*/
 }
 
 hr {
