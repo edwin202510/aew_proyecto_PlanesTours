@@ -43,12 +43,13 @@ header {
 }
 
 .banner .row .col-5 {
-    padding-left: 50px;/*Darle espacio lado izquierdo de texto*/
+    padding-left: 50px;
+    /*Darle espacio lado izquierdo de texto*/
     background-image: url(../Image-Destinos/carpa.jpg);
     color: white;
 }
 
-.banner .row .col-5 img{
+.banner .row .col-5 img {
     height: 250px;
 }
 
@@ -80,7 +81,9 @@ img .Imagen2 {
 
 /*Pie pagina*/
 
- 
+
+
+
 figure img {
     width: 100px;
 }
@@ -89,7 +92,7 @@ figcaption {
     color: white;
 }
 
-.col-md-4 {
+.col-4 h5 {
     color: aliceblue;
     /* h5 blanco*/
 }
@@ -97,7 +100,7 @@ figcaption {
 ul {
     color: white;
     /* blanco */
-   
+
     list-style-type: none;
     /* elimina viñetas*/
     /* O simplemente list-style: none;
@@ -114,9 +117,8 @@ hr {
     /* Elimina el borde predeterminado */
 }
 
-small {
+footer section {
     color: white;
     /* Cambia el color al que prefieras */
     text-align: center;
-
 }
