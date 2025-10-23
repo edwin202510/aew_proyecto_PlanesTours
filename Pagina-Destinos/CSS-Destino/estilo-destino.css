@@ -80,11 +80,7 @@ img .Imagen2 {
 
 /*Pie pagina*/
 
-
- footer .container-fluid bg-dark p-5 .row{
-   padding: 0;  
- }
-
+ 
 figure img {
     width: 100px;
 }
