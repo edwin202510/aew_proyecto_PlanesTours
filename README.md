@@ -1,2 +1,0 @@
-# aew_proyecto_PlanesTours
-LaboratorioPlanesTours
