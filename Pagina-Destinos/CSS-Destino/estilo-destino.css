@@ -20,6 +20,10 @@ body {
     width: 150px;
 }
 
+.navbar-nav li:hover{
+    background-color:#0D6EFD;/*cambio de color de fondo*/
+}
+
 header {
     display: flex;
     align-self: center;
@@ -31,6 +35,11 @@ header {
 .caja3 {
     align-self: center;
 }
+
+a:focus{
+    outline: 2px solid  cornflowerblue;/*cambio damos delineado color cuando usamos tab uso del cursor*/
+}
+
 
 /*Banner*/
 
@@ -47,18 +56,14 @@ header {
     padding-left: 20px;
     /*Darle espacio lado izquierdo de texto*/
     background-image: url(../Image-Destinos/carpa.jpg);
+    background-repeat: no-repeat;/*Para que la imagen no se repita en mosaico*/
+    background-size: cover;/*Hace que la imagen cubra todo el contenedor*/
     color: white;
 }
 
-.banner .row .col-5 img {
-    width: 420px;
-    height: 250px;
-}
-
-/* Efecto hover */
-img .Imagen2 {
-    height: 168px;
-    width: 250px;
+/*Efecto hever*/
+.banner .row .col-5:hover{
+    background-image: url(../Image-Destinos/vuelo2.jpg);   
 }
 
 
@@ -85,10 +90,15 @@ footer .row {
     padding-left: 10%;
 }
 
+.logo-empresa:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al 120% del original */
+}
 
 figure img {
     width: 100px;
+    display: block;/*Para se comporte como una caja*/
 }
+
 
 figcaption {
     color: white;
@@ -110,11 +120,18 @@ ul {
     /*margin: 0; /* Opcional: elimina el margen predeterminado */
 }
 
+.col-md-4 a:hover {
+    /* background-color: #333; /* Cambia el color de fondo al pasar el ratón */
+    color: blue;
+    /* Cambia el color del texto */
+}
+
 .col-md-4 a {
     color: white;
     text-decoration: none;
     /*sin subrayado*/
 }
+
 
 hr {
     height: 2px;
@@ -130,3 +147,4 @@ footer section {
     /* Cambia el color al que prefieras */
     text-align: center;
 }
+
