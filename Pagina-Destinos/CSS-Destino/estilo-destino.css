@@ -43,7 +43,7 @@ header {
 }
 
 .banner .row .col-5 {
-    padding-top: 10px;
+    padding-top: 05px;
     padding-left: 20px;
     /*Darle espacio lado izquierdo de texto*/
     background-image: url(../Image-Destinos/carpa.jpg);
@@ -51,6 +51,7 @@ header {
 }
 
 .banner .row .col-5 img {
+    width: 420px;
     height: 250px;
 }
 
