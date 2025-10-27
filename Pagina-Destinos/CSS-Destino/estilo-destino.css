@@ -70,6 +70,10 @@ a:focus{
 
 /*Contenido*/
 
+.text-center{
+    color: blue;/*cambio de color de letra H1,H2*/
+}
+
 .card iframe {
     border-radius: 04px;
     /* Redondeo uniforme de 15px en todas las esquinas */
@@ -79,8 +83,6 @@ a:focus{
     width: 386px;
     height: 180px;
 }
-
-
 
 
 
@@ -145,6 +147,6 @@ hr {
 footer section {
     color: white;
     /* Cambia el color al que prefieras */
-    text-align: center;
+    text-align: center;    
 }
 
