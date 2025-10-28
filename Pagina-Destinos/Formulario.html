@@ -86,10 +86,10 @@
                     <h5>Busca un vuelo</h5>
                     <p>Ingresa los datos para conectar un vuelo.</p>
 
-                    <form action="Enviado.html" method="post">
+                    <form id="form-registro" action="Enviado.html" method="post">
                         <div>
                             <input type="radio" id="numvuelo" name="viaje">
-                            <label for="numvuelo">número de vuelo</label>
+                            <label for="numvuelo">número de ticket</label>
                         </div>
                         <div>
                             <input type="radio" id="ruta" name="viaje">
@@ -102,9 +102,10 @@
                             <input type="date" required>
                         </div><br>
                         <div>
-                            <input type="submit">
+                            <button id="btn-buscar">BUSCAR</button>
                         </div>
                     </form>
+                    <p id="resultado"></p>
                 </div>
             </div>
         </section>

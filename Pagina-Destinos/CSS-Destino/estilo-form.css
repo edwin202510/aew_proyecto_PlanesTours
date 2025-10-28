@@ -1,3 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, Arial, sans-serif;
+    line-height: 1.5;
+    background: #f6f9fc;
+    color: #223;
+}
+
 .form-body {
     background-image: url(../Image-Destinos/vuelo.jpg);
     height: 350px;
@@ -34,4 +51,13 @@
 .col-md-5 form {
     align-self: center;
     padding-left: 20%;
+}
+
+form button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #0a5;
+    background: #0a5;
+    color: #fff;
+    cursor: pointer;
 }
