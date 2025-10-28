@@ -1,5 +1,18 @@
-
 .form-body {
-    background-image:url(../Image-Destinos/vuelo.jpg);
+    background-image: url(../Image-Destinos/vuelo.jpg);
     height: 350px;
+    padding-top: 20px;
+    /* Espaciado superior de 20 píxeles */
+    padding-left: 20px;
+}
+
+.form-title {
+    color: white;
+    font-weight: bold;
+}
+
+.form-body p {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
 }
