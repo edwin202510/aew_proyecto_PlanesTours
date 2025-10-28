@@ -88,11 +88,19 @@
 
                     <form action="Enviado.html" method="post">
                         <div>
-                            <input type="text" id="numerodevuelo" name="numerodevuelo" placeholder="Numero de vuelo" required>
+                            <input type="radio" id="numvuelo" name="viaje">
+                            <label for="numvuelo">número de vuelo</label>
                         </div>
                         <div>
+                            <input type="radio" id="ruta" name="viaje">
+                            <label for="ruta">por ruta</label>
+                        </div><br>
+                        <div>
+                            <input type="text" id="vuelo" name="vuelo" placeholder="Numero de vuelo" required>
+                        </div><br>
+                        <div>
                             <input type="date" required>
-                        </div>
+                        </div><br>
                         <div>
                             <input type="submit">
                         </div>
